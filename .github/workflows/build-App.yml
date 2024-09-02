@@ -4,6 +4,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
+
 permissions:
   actions: read # for detecting the Github Actions environment.
   id-token: write # for creating OIDC tokens for signing.
