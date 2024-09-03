@@ -17,7 +17,7 @@ jobs:
   build-publish-docker:
     runs-on: ubuntu-latest
     env:
-      DOCKER_REPO: ghjfintegration-docker-remote
+      DOCKER_REPO: ghjfintegration-docker-local
       NPM_REPO: ghjfintegrationapp-npm-remote
       IMAGE_NAME: ghjfintegrationapp
       JF_URL: https://${{ vars.JF_URL }}
