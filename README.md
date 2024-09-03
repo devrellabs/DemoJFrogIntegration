@@ -8,7 +8,7 @@ This repo was forked from https://github.com/yonarbel/su2024
   - [Dashboard](https://dev.azure.com/daveburnisonms/DemoJFrogIntegration/_dashboards/dashboard/4fd72b49-cb34-4124-b1b4-00d588b33605)
   - [Kanban Board](https://dev.azure.com/daveburnisonms/20e9f5e7-095d-4a16-b5a7-ab629eac49cd/_boards/board/t/7dabdfbe-7b7a-4163-b798-3be24e2ce8e0/Stories/)
 - **GitHub Repo:** [https://github.com/devrellabs/DemoJFrogIntegration](https://github.com/devrellabs/DemoJFrogIntegration)
-- **JFrog Artifactory:** [GHJFIntegration](https://ghdevrel.jfrog.io/ui/admin/repositories/remote?projectKey=ghjfintegration)
+- **JFrog Artifactory Builds**: [GHJFIntegration](https://ghdevrel.jfrog.io/ui/builds/?projectKey=ghjfintegration&type=builds)
 
 ## Recommended IDE Setup
 
