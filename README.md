@@ -1,6 +1,12 @@
-# swampup2024
+# JFrog / GitHub / Azure Boards Integration
 
-This template should help get you started developing with Vue 3 in Vite.
+This repo was forked from https://github.com/yonarbel/su2024
+
+## Related Resources
+
+- Azure DevOps Team Project: [DemoJFrogIntegration](https://dev.azure.com/daveburnisonms/DemoJFrogIntegration/_dashboards/dashboard/4fd72b49-cb34-4124-b1b4-00d588b33605)
+- GitHub Repo: [https://github.com/devrellabs/DemoJFrogIntegration](https://github.com/devrellabs/DemoJFrogIntegration)
+- JFrog Artifactory: [GHJFIntegration](https://ghdevrel.jfrog.io/ui/admin/repositories/remote?projectKey=ghjfintegration)
 
 ## Recommended IDE Setup
 
