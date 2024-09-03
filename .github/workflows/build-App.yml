@@ -23,7 +23,7 @@ jobs:
       JF_URL: https://${{ vars.JF_URL }}/
       DOCKER_BUILD_SUMMARY: false
       DOCKER_BUILD_RECORD_UPLOAD: false
-      JFROG_CLI_LOG_LEVEL: DEBUG
+      # JFROG_CLI_LOG_LEVEL: DEBUG
 
     steps:
     - name: Checkout the repository
