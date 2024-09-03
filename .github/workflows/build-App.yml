@@ -34,9 +34,9 @@ jobs:
         oidc-provider-name: jfrog-github
       id: setup-cli
       env:
-       JF_URL: https://${{ vars.JF_URL }}/
+       JF_URL: https://${{ vars.JF_URL }}
        JF_PROJECT: ${{ vars.JF_PROJECT }}
-       JF_ENV_GHJFINT: ${{ secrets.JF_ENV_GHJFINT }}
+       # JF_ENV_GHJFINT: ${{ secrets.JF_ENV_GHJFINT }}
 
     - name: Set CLI Config
       run: jf npm-config --global=true --repo-resolve=ghjfintegrationapp-npm-remote --repo-deploy=ghjfintegrationapp-npm-remote
