@@ -12,6 +12,7 @@ permissions:
   packages: write # for uploading attestations.
   contents: read
 
+
 jobs:
   build-publish-docker:
     runs-on: ubuntu-latest
