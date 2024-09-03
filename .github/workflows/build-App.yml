@@ -35,7 +35,7 @@ jobs:
       id: setup-cli
       env:
        JF_URL: https://${{ vars.JF_URL }}
-       JF_PROJECT: ${{ vars.JF_PROJECT }}
+       JF_PROJECT: ghjfintegration
        # JF_ENV_GHJFINT: ${{ secrets.JF_ENV_GHJFINT }}
 
     - name: Set CLI Config
