@@ -2,13 +2,19 @@
 
 This repo was forked from https://github.com/yonarbel/su2024
 
-## Related Resources
+## DevOps Resources
 
-- **Azure DevOps Team Project:**
-  - [Dashboard](https://dev.azure.com/daveburnisonms/DemoJFrogIntegration/_dashboards/dashboard/4fd72b49-cb34-4124-b1b4-00d588b33605)
+- **Plan**: 
+  - [DemoJFrogIntegration Dashboard](https://dev.azure.com/daveburnisonms/DemoJFrogIntegration/_dashboards/dashboard/4fd72b49-cb34-4124-b1b4-00d588b33605)
   - [Kanban Board](https://dev.azure.com/daveburnisonms/20e9f5e7-095d-4a16-b5a7-ab629eac49cd/_boards/board/t/7dabdfbe-7b7a-4163-b798-3be24e2ce8e0/Stories/)
-- **GitHub Repo:** [https://github.com/devrellabs/DemoJFrogIntegration](https://github.com/devrellabs/DemoJFrogIntegration)
-- **JFrog Artifactory Builds**: [GHJFIntegration](https://ghdevrel.jfrog.io/ui/builds/?projectKey=ghjfintegration&type=builds)
+- **Code**:
+  - GitHub Repo: [https://github.com/devrellabs/DemoJFrogIntegration](https://github.com/devrellabs/DemoJFrogIntegration)
+- **Build**:
+  - GitHub Actions: [GitHub and JFrog Integration - Build App](https://github.com/devrellabs/DemoJFrogIntegration/actions/workflows/build-App.yml)
+  - JFrog Artifactory Builds: [GHJFIntegration](https://ghdevrel.jfrog.io/ui/builds/?projectKey=ghjfintegration&type=builds)
+- **Secure**:
+  - [GitHub Advanced Security](https://github.com/orgs/devrellabs/security/overview)
+  - [JFrog Xray](https://ghdevrel.jfrog.io/ui/scans-list/builds-scans?projectKey=ghjfintegration)
 
 ## Recommended IDE Setup
 
