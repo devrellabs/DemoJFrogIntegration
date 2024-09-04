@@ -38,7 +38,7 @@ jobs:
        JF_URL: https://${{ vars.JF_URL }}
        JF_PROJECT: ghjfintegration
 
-    - name: Set CLI Config
+    - name: Set JFrog CLI Config
       run: jf npm-config --global=true --repo-resolve=swampapp-npm --repo-deploy=swampapp-npm
 
     - name: build webapp
@@ -73,23 +73,23 @@ jobs:
         tags: ${{ vars.JF_URL }}/${{ env.DOCKER_REPO }}/${{ env.IMAGE_NAME }}
         provenance: false
 
-    - name: docker scan
+    - name: docker scan via JFrog 
 
       run: |
            jf docker pull ${{ vars.JF_URL }}/${{ env.DOCKER_REPO }}/${{ env.IMAGE_NAME }}:latest
            jf docker scan ${{ vars.JF_URL }}/${{ env.DOCKER_REPO }}/${{ env.IMAGE_NAME }}:latest --vuln --project=${{ vars.JF_PROJECT }} --fail=false
 
-    - name: add docker package to build
+    - name: add docker package to build via JFrog 
       run: |
            echo "${{ vars.JF_URL }}/${{ env.DOCKER_REPO }}/${{ env.IMAGE_NAME }}@${{ steps.build.outputs.digest }}" > metadata.json
            jf rt build-docker-create ${{ env.DOCKER_REPO }} --image-file metadata.json
            
-    - name: publish build info
+    - name: publish build info to JFrog 
       run: |
            jf rt build-collect-env
            jf rt build-add-git
            jf rt build-publish
 
-    - name: build scan
+    - name: JFrog build scan
       run: |
             jf build-scan --vuln --fail=false
