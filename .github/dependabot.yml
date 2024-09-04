@@ -9,4 +9,4 @@ updates:
         type: "npm-registry"
         url: "https://ghdevrel.jfrog.io/artifactory/swampapp-npm"
         username: "${{secrets.ARTIFACTORY_USERNAME}}"
-        password: "${{secrets.ARTIFACTORY_PASSWORD}}"
+        password: "${{secrets.ARTIFACTORY_API_KEY}}"
