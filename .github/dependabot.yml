@@ -1,11 +1,14 @@
 version: 2
+registries:
+  Artifactory:
+    type: "npm-registry"
+    url: "https://ghdevrel.jfrog.io/artifactory/api/npm/swampapp-npm/"
+    token: "${{secrets.ARTIFACTORY_API_KEY}}"
 updates:
   - package-ecosystem: "npm"
     directory: "/"
+    registries:
+     - Artifactory
     schedule:
       interval: "daily"
-    registries:
-      jfrog-artifactory:
-        type: "npm-registry"
-        url: "https://ghdevrel.jfrog.io/artifactory/swampapp-npm"
-        token: "${{secrets.ARTIFACTORY_API_KEY}}"
+
