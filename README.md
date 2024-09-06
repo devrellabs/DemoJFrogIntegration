@@ -2,8 +2,6 @@
 
 This repo was forked from https://github.com/yonarbel/su2024
 
-[![jfrog-and-github](images\jfrog-and-github.jpg)](https://jfrog.com/jfrog-and-github)
-
 ## DevOps Resources
 
 - **Plan**: 
