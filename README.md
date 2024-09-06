@@ -6,6 +6,10 @@ This repo was forked from https://github.com/yonarbel/su2024
 
 ## DevOps Resources
 
+<a href="http://aka.ms/DevOps">
+  <img src="https://appdevelopmentcompanies.co/front_assets/img/blog/devops.png" alt="DevOps Infinity Loop" width="300" height="150">
+</a>
+
 - **Plan**: 
   - [DemoJFrogIntegration Dashboard](https://dev.azure.com/daveburnisonms/DemoJFrogIntegration/_dashboards/dashboard/4fd72b49-cb34-4124-b1b4-00d588b33605)
   - [Kanban Board](https://dev.azure.com/daveburnisonms/20e9f5e7-095d-4a16-b5a7-ab629eac49cd/_boards/board/t/7dabdfbe-7b7a-4163-b798-3be24e2ce8e0/Stories/)
