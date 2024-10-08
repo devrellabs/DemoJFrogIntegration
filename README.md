@@ -7,7 +7,7 @@ This repo was forked from https://github.com/yonarbel/su2024
 ## DevOps Resources
 
 <a href="http://aka.ms/DevOps">
-  <img src="images/devops.jpg" alt="DevOps Infinity Loop" width="300" height="160">
+  <img src="images/DevOps.jpg" alt="DevOps Infinity Loop" width="300" height="160">
 </a>
 
 - **Plan**: 
