@@ -2,7 +2,13 @@
 
 This repo was forked from https://github.com/yonarbel/su2024
 
+[![jfrog-and-github](images/jfrog-and-github.jpg)](https://jfrog.com/jfrog-and-github)
+
 ## DevOps Resources
+
+<a href="http://aka.ms/DevOps">
+  <img src="images/DevOps.jpg" alt="DevOps Infinity Loop" width="300" height="160">
+</a>
 
 - **Plan**: 
   - [DemoJFrogIntegration Dashboard](https://dev.azure.com/daveburnisonms/DemoJFrogIntegration/_dashboards/dashboard/4fd72b49-cb34-4124-b1b4-00d588b33605)
