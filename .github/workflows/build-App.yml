@@ -40,7 +40,7 @@ jobs:
        JF_PROJECT: ghjfintegration
 
     - name: Set JFrog CLI Config
-      run: jf npm-config --global=true --repo-resolve=swampapp-npm --repo-deploy=swampapp-npm
+      run: jf npm-config --global=true --repo-resolve=ghjfintegration-npm --repo-deploy=ghjfintegration-npm
 
     - name: build webapp
       run: |
