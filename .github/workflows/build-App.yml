@@ -18,7 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DOCKER_REPO: ghjfintegration-docker-local
-      NPM_REPO: ghjfintegrationapp-npm-remote
       IMAGE_NAME: ghjfintegrationapp
       JF_URL: https://${{ vars.JF_URL }}
       DOCKER_BUILD_SUMMARY: false
@@ -40,7 +39,7 @@ jobs:
        JF_PROJECT: ghjfintegration
 
     - name: Set JFrog CLI Config
-      run: jf npm-config --global=true --repo-resolve=ghjfintegration-npm --repo-deploy=ghjfintegration-npm
+      run: jf npm-config --global=true --repo-resolve=npm --repo-deploy=npm
 
     - name: build webapp
       run: |
