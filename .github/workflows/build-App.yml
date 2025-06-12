@@ -39,7 +39,7 @@ jobs:
        JF_PROJECT: ghjfintegration
 
     - name: Set JFrog CLI Config
-      run: jf npm-config --global=true --repo-resolve=npm --repo-deploy=npm
+      run: jf npm-config --global=true --repo-resolve=devrel-npm --repo-deploy=devrel-npm
 
     - name: build webapp
       run: |
